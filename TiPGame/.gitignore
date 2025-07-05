@@ -1,0 +1,58 @@
+# Ignore everything by default
+/*
+
+# Except these folders and files
+!Assets/
+!ProjectSettings/
+!.gitignore
+
+# Ignore everything inside Assets except Scripts folder
+Assets/*
+!Assets/Scripts/
+
+# Inside Scripts folder, only track C# files (.cs)
+Assets/Scripts/*
+!Assets/Scripts/**/*.cs
+
+# Ignore Unity-generated files that might be in ProjectSettings or elsewhere
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/QualitySettings.asset
+ProjectSettings/TagManager.asset
+ProjectSettings/TimeManager.asset
+ProjectSettings/InputManager.asset
+ProjectSettings/DynamicsManager.asset
+ProjectSettings/UnityConnectSettings.asset
+
+# Ignore Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Ignore crash reports
+CrashReports/
+
+# Ignore auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore everything in Assets except C# scripts
+Assets/*
+!Assets/**/*.cs
